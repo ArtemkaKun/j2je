@@ -1,6 +1,6 @@
 # Tool that converts JSON into a `jsonencode` Terraform HCL code.
 
-## Usage example
+## Conversion example
 
 ### Input
 
@@ -24,4 +24,14 @@ jsonencode({
     "range"         = true
     "refId"         = "A"
 })
+```
+
+## How to run
+
+1. Install Rust
+2. Clone this repo and run:
+```bash
+git clone https://github.com/ArtemkaKun/j2je.git
+cd j2je
+cargo run
 ```
