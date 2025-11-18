@@ -28,10 +28,5 @@ jsonencode({
 
 ## How to run
 
-1. Install Rust
-2. Clone this repo and run:
-```bash
-git clone https://github.com/ArtemkaKun/j2je.git
-cd j2je
-cargo run
-```
+1. Install Rust.
+2. Clone this repo and run `cargo run` in the cloned directory.
